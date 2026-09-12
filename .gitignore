@@ -1,0 +1,120 @@
+# ==============================================================================
+# OS Generated Files
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ==============================================================================
+# C / C++ (Build artifacts, CMake, Compilers)
+# ==============================================================================
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake build outputs and caches
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+build/
+bin/
+lib/
+
+# Clang / LLVM tooling
+.cache/
+.clangd/
+
+# ==============================================================================
+# Node / TypeScript
+# ==============================================================================
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript compilation output
+dist/
+out/
+*.tsbuildinfo
+
+# Logs and runtime data
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage and test artifacts
+coverage/
+*.lcov
+.nyc_output
+
+# Package manager lockfile considerations (uncomment if you want to ignore locks)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==============================================================================
+# Environment & Secrets
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
