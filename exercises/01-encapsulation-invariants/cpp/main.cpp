@@ -30,6 +30,9 @@ class DigitalEscrowAccount {
     public:
         explicit DigitalEscrowAccount(int id): id(id), status(Status::PENDING), balance(0){}
 
+        DigitalEscrowAccount(const DigitalEscrowAccount&) = delete;
+        DigitalEscrowAccount& operator=(const DigitalEscrowAccount&) = delete;
+
         void deposit(int64_t amount){
             if(status != Status::PENDING && status != Status::ACTIVE){
                 throw InvalidStateError("Deposit only allowed in PENDING or ACTIVE accounts");
